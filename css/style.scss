@@ -41,6 +41,14 @@ h2 {
     color: $royal-blue-color!important;
 }
 
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
 .main-link {
     font-weight: normal;
     font-size: 15px;
