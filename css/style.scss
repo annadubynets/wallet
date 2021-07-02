@@ -1,0 +1,88 @@
+@import "bootstrap.min.css";
+@import "fonts.css";
+@import "variables";
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: $black-color!important;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 17px;
+    color: $black-color!important;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px;
+    color: $white-color!important;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #628DFC 0%, #537CE5 100%);
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #27AE60 0%, #219653 100%);
+}
+
+.btn-light {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.1), 0px 4px 8px rgba(8, 35, 48, 0.16);
+    color: $royal-blue-color!important;
+}
+
+.main-link {
+    font-weight: normal;
+    font-size: 15px;
+    color: $royal-blue-color;
+    text-decoration: none;
+}
+
+.form-label {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: $royal-blue-color;
+}
+
+.form-control {
+    color: $grey-color;
+    border-bottom: 1px solid $grey-color;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+    &:focus {
+        border-color: $royal-blue-color;
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+.form-check-input:checked {
+    background-color: $royal-blue-color;
+    border: none;
+}
+
+.form-check-label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: $black-color;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background: transparent!important;
+}
