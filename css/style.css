@@ -20,6 +20,10 @@
   font-size: 30px !important;
 }
 
+.mb-28px {
+  padding-bottom: 28px;
+}
+
 .pb-100px {
   padding-bottom: 100px;
 }
