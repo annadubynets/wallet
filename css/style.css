@@ -93,7 +93,23 @@ h2 {
 .btn-primary.active:focus,
 .btn-primary:active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
+  box-shadow: none !important;
+}
+
+.btn-check:active + .btn-success:focus,
+.btn-check:checked + .btn-success:focus,
+.btn-success.active:focus,
+.btn-success:active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.btn-check:active + .btn-light:focus,
+.btn-check:checked + .btn-light:focus,
+.btn-light.active:focus,
+.btn-light:active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: none !important;
 }
 
 .main-link {
