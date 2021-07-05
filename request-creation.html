@@ -16,6 +16,19 @@
                 <div class="col-md-4 col-12 text-start px-4">
                     <h1 class="mb-0 pb-60px">Request creation</h1>
 
+                    <div class="row">
+                        <div class="col-12 pb-4">
+                            <div class="request-select w-100">
+                                <select class="selectpicker">
+                                    <option>Select topic</option>
+                                    <option>Action 1</option>
+                                    <option>Action 2</option>
+                                </select>
+                            </div>
+                            <div class="border-bottom mt-3"></div>
+                        </div>
+                    </div>
+
                     <label for="messageTextarea" class="form-label">Text message :</label>
                     <textarea class="form-control" id="messageTextarea" rows="3">Hello, i need a help with my wallet</textarea>
 
@@ -29,8 +42,9 @@
 
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 

@@ -1,4 +1,6 @@
-@import "bootstrap.min.css";
+@charset "UTF-8";
+@import "./bootstrap.min.css";
+@import "./bootstrap-select.min.css";
 @import "fonts.css";
 .font-weight-700 {
   font-weight: bold !important;
@@ -28,8 +30,16 @@
   font-size: 14px !important;
 }
 
+.font-size-15 {
+  font-size: 15px !important;
+}
+
 .font-size-16 {
   font-size: 16px !important;
+}
+
+.font-size-17 {
+  font-size: 17px !important;
 }
 
 .font-size-24 {
@@ -315,6 +325,15 @@ h3 {
   background: transparent !important;
 }
 
+.form-switch .form-check-input {
+  float: right;
+  background-color: #D7DCE4;
+  border: none;
+  height: 30px;
+  width: 50px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
 textarea.form-control {
   resize: none;
 }
@@ -457,6 +476,84 @@ textarea.form-control {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.accordion-button {
+  font-size: 16px;
+  color: #4F4F4F;
+  padding: 24px 0;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #4F4F4F;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-body {
+  font-size: 14px;
+  color: #4F4F4F;
+}
+
+.accordion-item {
+  border-bottom: 1px solid rgba(185, 193, 217, 0.2) !important;
+}
+
+.main-dropdown .btn {
+  color: #60708F !important;
+}
+.main-dropdown .btn.dropdown-toggle::after {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-image: url("../images/dropddown-arrow.svg");
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.request-select .btn {
+  color: #4F4F4F !important;
+  font-weight: normal;
+  font-size: 17px;
+  padding: 0;
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.bootstrap-select .dropdown-toggle::after {
+  content: "";
+  font-family: "icomoon" !important;
+  color: rgba(60, 60, 67, 0.3);
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100%;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #537CE5;
+  box-shadow: none;
+}
+
+.btn-check:active + .btn-light:focus,
+.btn-check:checked + .btn-light:focus,
+.btn-light.active:focus,
+.btn-light:active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: none;
+  outline: 0 !important;
+  outline-offset: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
