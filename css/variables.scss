@@ -1,4 +1,5 @@
-$black-color: #4F4F4F;
+$black-color: #17171A;
+$dark-grey-color: #4F4F4F;
 $royal-blue-color: #537CE5;
 $slate-blue-color: #5271E3;
 $medium-purple-color: #7596EB;
@@ -22,16 +23,68 @@ $white-color: #FFFFFF;
     font-weight: normal!important;
 }
 
+.font-size-10 {
+    font-size: 10px!important;
+}
+
+.font-size-11 {
+    font-size: 11px!important;
+}
+
+.font-size-12 {
+    font-size: 12px!important;
+}
+
+.font-size-14 {
+    font-size: 14px!important;
+}
+
 .font-size-16 {
     font-size: 16px!important;
+}
+
+.font-size-24 {
+    font-size: 24px!important;
 }
 
 .font-size-30 {
     font-size: 30px!important;
 }
 
+.mt-30px {
+    margin-top: 30px;
+}
+
+.mt-49px {
+    margin-top: 49px;
+}
+
+.mt-183px {
+    margin-top: 183px;
+}
+
 .mb-28px {
-    padding-bottom: 28px;
+    margin-bottom: 28px;
+}
+
+.mb-35px {
+    margin-bottom: 35px;
+}
+
+.mb-54px {
+    margin-bottom: 54px;
+}
+
+.pt-40px {
+    padding-top: 40px;
+}
+
+.pb-60px {
+    padding-bottom: 60px;
+}
+
+.pb-87px {
+    padding-bottom: 87px;
 }
 
 .pb-100px {
@@ -50,10 +103,74 @@ $white-color: #FFFFFF;
     padding-bottom: 280px;
 }
 
+.pb-338px {
+    padding-bottom: 338px;
+}
+
+.text-secondary {
+    color: $dark-grey-color!important;
+}
+
 .text-dark {
     color: $black-color!important;
 }
 
 .text-muted {
     color: $light-slate-grey-color!important;
+}
+
+.text-light {
+    color: rgba(255, 255, 255, 0.7)!important;
+}
+
+.text-primary {
+    color: linear-gradient(90deg, #628DFC 0%, #537CE5 100%)!important;
+}
+
+.text-danger {
+    color: $light-coral-color!important;
+}
+
+.text-success {
+    color: $spring-green-color!important;
+}
+
+.bg-light {
+    background: $white-color!important;
+}
+
+.bg-secondary {
+    background: rgba(51, 51, 51, 0.3)!important;
+}
+
+.bg-primary {
+    background: linear-gradient(180deg, rgba(99, 143, 254, 0) 0%, #638FFE 100%)
+}
+
+.bg-danger {
+    background: rgba(246, 84, 62, 0.1)!important;
+}
+
+.bg-purple {
+    background: rgba(99, 116, 195, 0.1)!important;
+}
+
+.bg-green {
+    background: rgba(48, 224, 161, 0.1)!important;
+}
+
+.bg-success {
+    background: $spring-green-color!important;
+}
+
+.border-radius-20px {
+    border-radius: 20px;
+}
+
+.border-radius-28px {
+    border-radius: 28px;
+}
+
+.border-radius-50px {
+    border-radius: 50px;
 }
