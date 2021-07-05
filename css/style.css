@@ -156,6 +156,10 @@
   background: #30E0A1 !important;
 }
 
+.bg-muted {
+  background: #F2F2F3;
+}
+
 .border-radius-20px {
   border-radius: 20px;
 }
