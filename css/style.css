@@ -315,6 +315,10 @@ h3 {
   background: transparent !important;
 }
 
+textarea.form-control {
+  resize: none;
+}
+
 .square-style {
   width: 56px;
   height: 56px;
