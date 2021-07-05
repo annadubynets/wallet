@@ -13,27 +13,23 @@
     <section class="pt-4">
         <div class="container">
             <div class="row justify-content-center mb-54px">
-                <div class="col-md-6 col-12 text-center ps-4">
+                <div class="col-md-6 col-12 text-center px-4">
                     <h1 class="mb-0 pb-100px text-start">Wallet Keys</h1>
                     <div class="text-secondary font-size-16 font-weight-500 mb-54px">Your keys - you coins! <br> Never share your private keys!</div>
 
                     <form>
                         <div class="pb-4 text-start">
-                            <label for="inputPrivateKey" class="form-label">Private key:</label>
-                            <div class="input-group" id="show_hide_password">
-                                <input class="form-control" type="password">
-                                <div class="input-group-addon ms-0">
-                                    <a href=""><span class="icon-eye-outline d-inline-block"></span></a>
-                                </div>
+                            <label for="inputPrivateKey" class="form-label d-block">Private key:</label>
+                            <div class="position-relative">
+                                <input class="password-input form-control" type="password" name="password" id="password" placeholder="Enter the password" />
+                                <span class="icon-eye-off-outline d-inline-block password-input-toggler" data-password-input-id="password"></span>
                             </div>
                         </div>
                         <div class="text-start">
-                            <label for="inputWIFKey" class="form-label">WIF key:</label>
-                            <div class="input-group" id="show_hide_password">
-                                <input class="form-control" type="password">
-                                <div class="input-group-addon ms-0">
-                                    <a href=""><span class="icon-eye-off-outline d-inline-block"></span></a>
-                                </div>
+                            <label for="inputWIFKey" class="form-label d-block">WIF key:</label>
+                            <div class="position-relative">
+                                <input class="password-input form-control" type="password" name="wif-key" id="wif-key" placeholder="Enter WIF key" />
+                                <span class="icon-eye-off-outline d-inline-block password-input-toggler" data-password-input-id="wif-key"></span>
                             </div>
                         </div>
                         <div class="mt-183px">

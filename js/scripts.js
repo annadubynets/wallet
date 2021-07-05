@@ -18,3 +18,16 @@ $(function() {
         $('select').selectpicker();
     }
 })
+
+$('.password-input-toggler').on('click', function(e) {
+    e.preventDefault();
+
+    const inputId = $(this).attr('data-password-input-id');
+    const passwordInput = $('#' + inputId);
+
+    const type = passwordInput.attr('type') === 'password' ? 'text' : 'password';
+    passwordInput.attr('type', type);
+
+    $(this).toggleClass('icon-eye-outline', type == 'text');
+    $(this).toggleClass('icon-eye-off-outline', type == 'password');
+});
