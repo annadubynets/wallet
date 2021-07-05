@@ -92,6 +92,19 @@ h3 {
     border-bottom: 1px solid rgba(185, 193, 217, 0.2)!important;
 }
 
+.notifications-heading:before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    margin-left: -20px;
+}
+
 .form-label {
     font-weight: normal;
     font-size: 10px;
