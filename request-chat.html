@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Request chat</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,9 +14,9 @@
     <section class="pt-36px pb-60px">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-4 col-12 text-start px-4">
+                <div class="col-md-6 col-12 text-start px-4">
                     <div class="chat-header py-4">
-                        <div class="row align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div class="col-3">
                                 <a href="#" class="text-dark">
                                     <span class="icon-menu-hamburger d-inline-block font-size-24"></span>
@@ -25,11 +26,21 @@
                                 <div class="font-weight-700 font-size-14 text-secondary text-truncate">Wallet problem</div>
                             </div>
                             <div class="col-3 text-end px-0">
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle px-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="icon-search text-dark font-size-24"></span>
+                                <!-- <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown button
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div> -->
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle px-0" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-auto-close="true" aria-expanded="false">
+                                        <span class="icon-search text-dark font-size-24"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -122,7 +133,7 @@
 
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
